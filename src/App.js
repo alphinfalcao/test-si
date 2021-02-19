@@ -48,7 +48,7 @@ class App extends React.Component {
       <Card.Text>Skill Level:
         {playerdet.Skill}
       </Card.Text>
-      <Card.Text>Players value : ${playerdet.Value}</Card.Text>
+      <Card.Text>Player value : ${playerdet.Value}mn</Card.Text>
       {playerdet.UpComingMatchesList.map((k, w) => (
         <div>
          <Card.Text key={w}>Upcoming matches : {k.TSCode} vs {k.VsTSCode}</Card.Text>
