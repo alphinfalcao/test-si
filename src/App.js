@@ -40,7 +40,7 @@ class App extends React.Component {
           return playerdet
         }
       }).slice(0).reverse().map(function(playerdet, i){
-  return  <div className="col-3 py-3" key={i}>
+  return  <div className="col-lg-3 py-3 col-xs-12 col-sm-12 col-md-4" key={i}>
       <Card>
     <Card.Img variant="top" src={imgurl+playerdet.Id+'.jpg'}/>
     <Card.Body>
